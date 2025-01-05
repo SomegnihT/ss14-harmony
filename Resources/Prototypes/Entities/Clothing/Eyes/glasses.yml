@@ -279,6 +279,7 @@
   - type: Clothing
     sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
   - type: FlashImmunity
+  - type: NightVision
 
 - type: entity
   parent: ClothingEyesBase

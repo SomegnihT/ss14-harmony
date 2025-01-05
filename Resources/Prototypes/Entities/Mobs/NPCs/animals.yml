@@ -78,6 +78,10 @@
   - type: Tag
     tags:
     - VimPilot
+  - type: NightVision # Goobstation - Nigthvision
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
 
 - type: entity
   name: bee
@@ -1891,6 +1895,10 @@
     sound:
       collection: WeakHit
 # End of Harmony Change
+  - type: NightVision # Goobstation - Nigthvision
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
 
 - type: entity
   parent: MobMouse
@@ -2543,6 +2551,10 @@
       groups:
         Brute: -0.07
         Burn: -0.07
+  - type: NightVision # Goobstation - Nigthvision
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
 
 - type: entity
   parent: MobSpiderBase
