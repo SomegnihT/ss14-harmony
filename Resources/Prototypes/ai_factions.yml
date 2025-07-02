@@ -9,6 +9,7 @@
   - Revolutionary
   - AllHostile
   - Wizard
+  - BloodBrother # Harmony
 
 - type: npcFaction
   id: NanoTrasen
@@ -21,6 +22,8 @@
   - Dragon
   - AllHostile
   - Wizard
+  - Xenoborg
+  - BloodBrother # Harmony
 
 - type: npcFaction
   id: Mouse
@@ -52,9 +55,12 @@
   - PetsNT
   - Zombie
   - Revolutionary
+  - Dragon
+  - Xeno
   - AllHostile
   - Wizard
-  - Dragon
+  - Xenoborg
+  - BloodBrother # Harmony
 
 - type: npcFaction
   id: SimpleNeutral
@@ -70,6 +76,7 @@
   - Dragon
   - AllHostile
   - Wizard
+  - Xenoborg
 
 - type: npcFaction
   id: Xeno
@@ -83,6 +90,8 @@
   - AllHostile
   - Wizard
   - Dragon
+  - Xenoborg
+  - BloodBrother # Harmony
 
 - type: npcFaction
   id: Zombie
@@ -97,6 +106,8 @@
   - AllHostile
   - Wizard
   - Dragon
+  - Xenoborg
+  - BloodBrother # Harmony
 
 - type: npcFaction
   id: Revolutionary
@@ -107,6 +118,7 @@
   - Dragon
   - AllHostile
   - Wizard
+  - Xenoborg
 
 - type: npcFaction
   id: AllHostile
@@ -123,6 +135,8 @@
   - Zombie
   - Revolutionary
   - Wizard
+  - Xenoborg
+  - BloodBrother # Harmony
 
 - type: npcFaction
   id: Wizard
@@ -138,4 +152,23 @@
   - Xeno
   - Zombie
   - Revolutionary
+  - AllHostile
+  - Xenoborg
+  - BloodBrother # Harmony
+
+- type: npcFaction
+  id: Xenoborg
+  hostile:
+  # they have brains
+  - NanoTrasen
+  - Syndicate
+  - Zombie
+  - Revolutionary
+  - Wizard
+  - BloodBrother # Harmony
+
+  - Xeno # rivalry
+
+  # cause they are hostile to them
+  - SimpleHostile 
   - AllHostile
