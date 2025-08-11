@@ -24,7 +24,7 @@ public sealed class ThermalVisionSystem : EquipmentHudSystem<ThermalVisionCompon
 
     private void OnToggle(Entity<ThermalVisionComponent> ent, ref SwitchableOverlayToggledEvent args)
     {
-        RefreshOverlay(args.User);
+        RefreshOverlay();
     }
 
     protected override void UpdateInternal(RefreshEquipmentHudEvent<ThermalVisionComponent> args)

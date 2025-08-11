@@ -23,7 +23,7 @@ public sealed class NightVisionSystem : EquipmentHudSystem<NightVisionComponent>
 
     private void OnToggle(Entity<NightVisionComponent> ent, ref SwitchableOverlayToggledEvent args)
     {
-        RefreshOverlay(args.User);
+        RefreshOverlay();
     }
 
     protected override void UpdateInternal(RefreshEquipmentHudEvent<NightVisionComponent> args)
