@@ -1,4 +1,4 @@
-using Content.Shared._Goobstation.Flashbang;
+//using Content.Shared._Goobstation.Flashbang;
 using Content.Shared.Actions;
 using Content.Shared.Inventory;
 using Robust.Shared.Audio.Systems;
@@ -27,10 +27,13 @@ public abstract class SwitchableOverlaySystem<TComp, TEvent> : EntitySystem
         SubscribeLocalEvent<TComp, GetItemActionsEvent>(OnGetItemActions);
         SubscribeLocalEvent<TComp, ComponentGetState>(OnGetState);
         SubscribeLocalEvent<TComp, ComponentHandleState>(OnHandleState);
+        /*
         SubscribeLocalEvent<TComp, FlashDurationMultiplierEvent>(OnGetFlashMultiplier);
         SubscribeLocalEvent<TComp, InventoryRelayedEvent<FlashDurationMultiplierEvent>>(OnGetInventoryFlashMultiplier);
+        */
     }
 
+    /*
     private void OnGetFlashMultiplier(Entity<TComp> ent, ref FlashDurationMultiplierEvent args)
     {
         args.Multiplier *= GetFlashMultiplier(ent);
@@ -49,6 +52,7 @@ public abstract class SwitchableOverlaySystem<TComp, TEvent> : EntitySystem
 
         return comp.FlashDurationMultiplier;
     }
+    */
 
     public override void FrameUpdate(float frameTime)
     {
