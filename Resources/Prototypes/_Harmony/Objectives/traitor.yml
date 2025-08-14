@@ -31,3 +31,4 @@
     job: HeadOfSecurity
   - type: StealCondition
     stealGroup: WeaponEnergyMagnumHarmony
+    owner: job-name-hos
