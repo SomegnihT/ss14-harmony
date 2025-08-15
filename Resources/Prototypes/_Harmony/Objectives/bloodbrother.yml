@@ -152,3 +152,9 @@
 - type: entity
   parent: [BaseBloodBrotherObjective, NukeDiskStealObjective]
   id: BloodBrotherNukeDiskStealObjective
+
+## other
+
+- type: entity
+  parent: [BaseBloodBrotherObjective, AccessConfiguratorStealObjective]
+  id: BloodBrotherAccessConfiguratorStealObjective

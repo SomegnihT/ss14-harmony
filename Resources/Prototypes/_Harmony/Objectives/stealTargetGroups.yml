@@ -16,13 +16,6 @@
     sprite: _Harmony/Clothing/Eyes/Glasses/cmo.rsi
     state: icon
 
-- type: stealTargetGroup
-  id: AccessConfigurator
-  name: steal-target-groups-access-configurator
-  sprite:
-    sprite: Objects/Tools/access_configurator.rsi
-    state: icon
-
 # Traitor single items
 
 - type: stealTargetGroup
@@ -30,4 +23,13 @@
   name: steal-target-groups-weapon-energy-magnum
   sprite:
     sprite: _Harmony/Objects/Weapons/Guns/Battery/energy_magnum.rsi
+    state: icon
+
+# Multi Antag single items (ex: Syndi & Thief, BB takes from syndi already)
+
+- type: stealTargetGroup
+  id: AccessConfigurator
+  name: steal-target-groups-access-configurator
+  sprite:
+    sprite: Objects/Tools/access_configurator.rsi
     state: icon

@@ -32,3 +32,14 @@
   - type: StealCondition
     stealGroup: WeaponEnergyMagnumHarmony
     owner: job-name-hos
+
+## other
+
+- type: entity
+  parent: BaseTraitorStealObjective
+  id: AccessConfiguratorStealObjective # Thief will also have this, it's called ThiefAccessConfiguratorStealObjective for them
+  components:
+  - type: NotJobRequirement # NotJobRequirement only allows one job to be stated, otherwise an error happens and the objective cannot be rolled
+    job: HeadOfPersonal # TODO: Find a way to also have the CE unable to roll the objective in the case we allow heads to be antags
+  - type: StealCondition
+    stealGroup: AccessConfigurator
