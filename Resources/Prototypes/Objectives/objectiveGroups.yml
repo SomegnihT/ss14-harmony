@@ -89,6 +89,7 @@
     BibleStealObjective: 1
     ClothingNeckGoldmedalStealObjective: 1              #other
     ClothingNeckClownmedalStealObjective: 0.5
+    ThiefAccessConfiguratorStealObjective: 1 # Harmony Objective
 
 - type: weightedRandom
   id: ThiefObjectiveGroupStructure

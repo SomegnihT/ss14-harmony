@@ -1,5 +1,6 @@
 # Thief single item
 steal-target-groups-cmogoggles = medical analysis goggles
+steal-target-groups-access-configurator = access configurator
 
 # Thief Animal
 steal-target-groups-animal-glorp = Glorp
