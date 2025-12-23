@@ -83,7 +83,10 @@
   - type: XenoborgsRule
   - type: RuleGrids
   - type: GameRule
-    minPlayers: 40
+    # Start Harmony specific change
+    minPlayers: 35
+    cancelPresetOnTooFewPlayers: false
+    # End Harmony specific change
   - type: LoadMapRule
     gridPath: /Maps/Shuttles/mothership.yml
   - type: AntagMultipleRoleSpawner
