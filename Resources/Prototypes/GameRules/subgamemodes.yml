@@ -84,7 +84,7 @@
   - type: RuleGrids
   - type: GameRule
     # Start Harmony specific change
-    minPlayers: 35
+    minPlayers: 35 # 40 -> 35
     cancelPresetOnTooFewPlayers: false
     # End Harmony specific change
   - type: LoadMapRule
